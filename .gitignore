@@ -1,0 +1,9 @@
+# Ignorer tous les fichiers se terminant par `.Identifier`
+
+# Fichiers avec l’extension .Identifier
+
+\*.Identifier
+
+# Assure l’ignorance dans tous les sous-dossiers
+
+\*\*/\*.Identifier
