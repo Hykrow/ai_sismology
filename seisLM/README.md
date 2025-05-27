@@ -53,6 +53,10 @@
   * Compatible avec PhaseNet, EQTransformer, GDPick et seisLM.
   * Utilise les fichiers de configuration adaptés situés dans `seisLM/configs/phasepick` (la base de données est interchangeable, la simulée sera utilisée).
 
+* **src/phasepick/phasepick\_run\_only\_head\_trainable.py** :
+
+  * Fontionne de la même manière que **phasepick_run** mais en posant uniquement les têtes des transformers comme paramètre à entrainer. (Comme suggéré par le client)
+
 * **src/phasepick/phasepick\_run\_classic.py** :
 
   * Utilisé pour le fine-tuning avec les bases de données associées aux configs (non simulées).
